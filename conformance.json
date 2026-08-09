@@ -1,0 +1,15 @@
+{
+  "language": "ruby",
+  "matrixVersion": "ores.otel.test-repository/v1",
+  "name": "ores-otel-log-ruby-test",
+  "requireExactHeadChecks": true,
+  "requireNoMonkeyPatching": true,
+  "runtime": "Ruby 3.2-3.5",
+  "sources": [
+    "ores-otel/ores.otel.log",
+    "ORESoftware/next-loggers.ts"
+  ],
+  "status": "seeded",
+  "testCommand": "bundle exec rake test",
+  "toolchain": "bundler"
+}
