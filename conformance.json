@@ -8,6 +8,10 @@
     "lifecycle",
     "concurrency"
   ],
+  "exactHeads": {
+    "canonical": "05f14768232b770dfc2bbe03f27b388f5a701c74",
+    "legacy": "05f14768232b770dfc2bbe03f27b388f5a701c74"
+  },
   "language": "ruby",
   "name": "ores-otel-log-ruby-test",
   "runtime": "Ruby 3.2-3.5",
@@ -15,7 +19,7 @@
     "ores-otel/ores.otel.log",
     "ORESoftware/next-loggers.ts"
   ],
-  "status": "planned",
+  "status": "created",
   "testCommand": "bundle exec rake test",
   "toolchain": "bundler"
 }
