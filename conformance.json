@@ -1,26 +1,15 @@
 {
-  "automatic_instrumentation": false,
-  "capabilities": [
-    "record-schema",
-    "api-manifest",
-    "context-isolation",
-    "otel-explicit",
-    "no-monkey-patching",
-    "lifecycle",
-    "concurrency"
-  ],
-  "exact_heads": {
-    "canonical": "be37556eeeaa77c2fc57feda96239b69cca8e9ac",
-    "legacy": "be37556eeeaa77c2fc57feda96239b69cca8e9ac"
-  },
   "language": "ruby",
-  "no_monkey_patching": true,
-  "repository": "ores-otel-test/ores-otel-log-ruby-test",
-  "runtime": "Ruby 3.4+",
-  "schema_version": 1,
+  "matrixVersion": "ores.otel.test-repository/v1",
+  "name": "ores-otel-log-ruby-test",
+  "requireExactHeadChecks": true,
+  "requireNoMonkeyPatching": true,
+  "runtime": "Ruby 3.2-3.5",
   "sources": [
     "ores-otel/ores.otel.log",
     "ORESoftware/next-loggers.ts"
   ],
-  "test_command": "ruby sdk/ruby/test/next_loggers_test.rb"
+  "status": "seeded",
+  "testCommand": "bundle exec rake test",
+  "toolchain": "bundler"
 }
